@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin:0%;
+        }
+
+        h1 {
+            color: blueviolet;
+        }
+
+        main {
+            background-color: rgb(255, 221, 226);
+            padding: 10px;
+            margin: 10px 10px 20px 10px;
+            border-radius: 20px;
+        }
+
+
+        a {
+            text-decoration: none;
+            color:blue;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #especial:before {
+            content:"➭"
+        }
+
+        div:hover {
+            color:darkgreen;
+        }
+
+        footer {
+            background-color: black;
+            color:white;
+            text-align: center;
+            padding: 10px;
+            /* box-shadow: deslocamento horizontal, deslocamento vertical, espalhamento.  */
+            box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.411);
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        
+
+
+
+    </style>
+</head>
+<body>
+    <header> <!-- Cabeçalho -->
+        <h1>Armazém dos cosméticos</h1> 
+    </header>
+
+    <main> <!-- Conteúdo principal -->
+        <section>
+            <p>Este é o melhor site para procura de cosméticos,pois aqui são dadas as melhores indicações de cósmeticos para você comprar um produto de qualidade.</p>          
+        </section>
+        <nav> <!-- Colocar os links -->
+            <p><a href="https://www.adoromaquiagem.com.br/blog/dicas/top-10-melhores-corretivos-para-olheiras/" target="_blank">Melhores corretivos</a></p>
+            <p><a href="https://olook.com.br/melhores-paletas-de-maquiagem/" target="_blank">Melhores paletas de sombra</a></p>
+            <p><a href="https://infinitabeleza.com.br/melhores-escovas-de-cabelo/" target="_blank">Melhores escovas de cabelo</a></p>
+            <p><a href="https://www.cupom.org/dicas/mascara-hidratante-cabelo/" target="_blank">Melhores máscaras de cabelo</a></p>
+        </nav>
+        <section>
+            <article >
+                <p id="especial">Se gostou do nosso site e gostaria de contribuir para mais conteúdos como esse passe o mouse sobre os símbolos à baixo. 
+                <div title="Dinheirooo!">$$$$$</div> 
+            </article> 
+            <article>
+                <p>Você também pode visitar o nosso <a href="pagina2.html" target="_blank">site de notícias</a> para ficar informado sobre as notícias do mundo.</p>
+                <aside>
+                    <p>Artigo escrito por Isabel Meira</p>
+                </aside>
+            </article>      
+        </section>               
+    </main>
+
+    <footer> <!-- Rodapé -->
+        <p>Desenvolvido por Sara</p>
+    </footer>
+    
+</body>
+</html>
