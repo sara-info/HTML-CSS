@@ -7,16 +7,24 @@
     <title>Fundos</title>
     <style>
         body {
+            /* 
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
-            background-size: cover;
-            /* redimensiona a imagem para que ela cubra o conteiner mesmo que para isso ocorram alguns eventuais cortes */
+            background-size: cover; 
             background-attachment: fixed;
-            /*margin-top: 50px;  */
+            */
+
+            /* Shorthand - background
+                color > image > position > repeat/size > attachment 
+            */
+            
+            /* cover redimensiona a imagem para que ela cubra o conteiner mesmo que para isso ocorram alguns eventuais cortes */
+            
+            background: black url('imagens/wallpaper002.jpg') center center/cover no-repeat fixed;
+
             margin-bottom: 10px;
-        
         }
 
         main {
