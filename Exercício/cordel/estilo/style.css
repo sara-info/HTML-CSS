@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;   
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    /* para colocar todas as letras em maiúsculo você pode usar:
+    ->text-transform: uppercase;
+    ->font-variant: small-caps;   
+    */
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header a,footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover,footer a:hover {
+    text-decoration: underline;
+
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+footer > p {
+    color: white;
+}
+
+
+
+
