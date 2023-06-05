@@ -66,6 +66,9 @@ section {
 
 section.imagem {
     background-color: rgb(51, 51, 51);
+    background-size: cover;
+    box-shadow: inset 6px 6px 15px 0px rgba(0, 0, 0, 0.473);
+    background-attachment: fixed;
 }
 
 section.imagem > p  {
@@ -73,6 +76,7 @@ section.imagem > p  {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.377);
     color: white;
+    text-shadow: 1.5px 1.5px 1.5px black;
 }
 
 section#img01 {
