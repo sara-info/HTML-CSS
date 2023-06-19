@@ -4,9 +4,176 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;           
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        thead, tfoot {
+            background-color: rgba(128, 128, 128, 0.74);
+            color: white;
+        }
+    </style>
 </head>
 <body>
+    <!-- 
+        ANATOMIA DE TABELAS GRANDES
+
+        TABLE
+            THEAD
+                TABLE ROW = linha da tabela
+                    TABLE HEADER = cabeçalho da tabela
+                    TABLE DATA = dado da tabela
+            TBODY
+                TABLE ROW = linha da tabela
+                    TABLE HEADER = cabeçalho da tabela
+                    TABLE DATA = dado da tabela
+            TFOOT
+                TABLE ROW = linha da tabela
+                    TABLE HEADER = cabeçalho da tabela
+                    TABLE DATA = dado da tabela
+        TABLE
+     -->
     <h1>Uso de tabelas grandes</h1>
+    <table>
+
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>            
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 024 937</td>
+
+                <td>Minas Gerais</td>
+
+
+                <td>Rio de Janeiro</td>
+
+
+                <td>Bahia</td>
+
+
+                <td>Paraná</td>
+
+
+                <td>Rio Grande do Sul</td>
+
+
+                <td>Pernambuco</td>
+
+
+                <td>Ceará</td>
+
+
+                <td>Pará</td>
+
+
+                <td>Santa Catarina</td>
+
+
+                <td>Goiás</td>
+
+
+                <td>Maranhão</td>
+
+
+                <td>Espírito Santo</td>
+
+
+                <td>Paraíba</td>
+
+
+                <td>Amazonas</td>
+
+
+                <td>Mato Grosso</td>
+
+                
+                <td>Rio Grande do Norte</td>
+
+
+                <td>Piauí</td>
+
+
+                <td>Alagoas</td>
+
+
+                <td>Distrito Federal</td>
+
+
+                <td>Mato Grosso do Sul</td>
+                <td>2 449 024</td>
+
+
+                <td>Sergipe</td>
+                <td>2 068 017</td>
+
+
+                <td>Rondônia</td>
+                <td>1 562 409</td>
+
+
+                <td>Tocantins</td>
+                <td>1 383 445</td>
+
+
+                <td>Acre</td>
+                <td>733 559</td>
+
+
+                <td>Amapá</td>
+                <td>669 526</td>
+
+
+                <td>Roraima</td>
+                <td>450 479</td>
+
+
+                <td>19 597 330</td>
+                <td>15 989 929</td>
+                <td>14 016 906</td>
+                <td>10 444 526</td>
+                <td>10 693 929</td>
+                <td>8 796 448</td>
+                <td>8 452 381</td>
+                <td>7 581 051</td>
+                <td>6 248 436</td>
+                <td>6 003 788</td>
+                <td>6 574 789</td>
+                <td>3 514 952</td>
+                <td>3 766 528</td>
+                <td>3 483 985</td>
+                <td>3 035 122</td>
+                <td>3 168 027</td>
+                <td>3 118 360</td>
+                <td>3 120 494</td>
+                <td>2 570 160</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td>00000</td>
+            </tr>
+        </tfoot>
+
+    </table>
     
 </body>
 </html>
