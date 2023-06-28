@@ -25,12 +25,31 @@
             padding: 8px;
             padding-bottom: 15px;
         }
+
+        .cnome {
+            background-color: lightpink;
+        }
+
+        .csexo {
+            background-color: lightsalmon;
+        }
+
+        .cidade {
+            background-color: lightcoral;
+        }
     </style>
 </head>
 <body>
     <h1>Exercício de Tabelas</h1>
     <table>
+        <colgroup> <!-- Serve para estilizar as colunas -->
+            <col class="cnome">
+            <col class="csexo" span="2"> 
+            <col class="cidade">
+        </colgroup>
+
         <caption>Cadastro</caption>
+        
         <thead>
             <tr>
                 <th scope="col">Nome</th>
@@ -45,6 +64,36 @@
                 <td>F</td>
                 <td>25</td>
                 <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Cláudio</td>
+                <td>M</td>
+                <td>28</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>42</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>Hélio</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Vendedor</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>39</td>
+                <td>Nutricionista</td>
+            </tr>
+            <tr>
+                <td>Otávio</td>
+                <td>M</td>
+                <td>22</td>
+                <td>Médico</td>
             </tr>
         </tbody>
     </table>
