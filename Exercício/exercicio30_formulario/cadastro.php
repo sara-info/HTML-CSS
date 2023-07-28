@@ -1,0 +1,1 @@
+Os comandos foram enviados!
