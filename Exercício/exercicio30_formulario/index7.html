@@ -7,12 +7,12 @@
 </head>
 <body>
     <h1>Exemplo de Formulário</h1>
-    <form action="cadastro.php" method="get">
+    <form action="cadastro.php" method="post">
         <p>
             <label for="iest">Estado</label> 
             <select name="estado" id="iest">
 
-                <option value="">---Escolha o estado---</option>
+                <option value="" selected>---Escolha o estado---</option>
                                                   
                 <!-- Estados da Região Norte -->
                 <optgroup label="Norte">
@@ -61,6 +61,21 @@
                 </optgroup>
 
             </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="profissao">
+            <datalist id="profissao">
+                <option>Matemático</option>
+                <option>Médico</option>
+                <option>Programador</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Sua mensagem..."></textarea>
         </p>
 
         <p>
