@@ -17,6 +17,10 @@ menu {
     display: none;
 }
 
+article {
+    width: 100vw;
+}
+
 article::after {
     content: 'Esse artigo foi impresso através da Sara';
 }
