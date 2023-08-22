@@ -1,3 +1,77 @@
 @charset "UTF-8";
 
-/* Estilo para cada um dos dispositivos */
+/* Todas as demais mídias */
+
+/* 
+    Telas pequenas: até 600px;
+    Telas de celular: de 600px até 768px;
+    Telas tablet: de 768px até 992px;
+    Telas desktop: de 992px até 1200px;
+    Telaas gigantes: de 1200 para cima;
+*/
+
+@media print {
+
+}
+
+/* Tablet */
+
+@media screen and  (min-width:768px) and (max-width:992px) {    
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: block;
+    }
+}
+
+/* Desktop */
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#pc {
+        display: block;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#pc {
+        display: none;
+    }
+
+    img#tv {
+        display:block;
+    }
+
+}
+
+
